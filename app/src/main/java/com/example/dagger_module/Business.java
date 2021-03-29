@@ -16,6 +16,6 @@ public class Business {
     }
 
     public void StartBusiness(){
-        System.out.println("Starting Business With " + logo.getShape()  + " Logo Shape & " + name.getName() " Name") ;
+        System.out.println("Starting Business With " + logo.getShape()  + " Logo Shape & " + name.getName() + " Name") ;
     }
 }
