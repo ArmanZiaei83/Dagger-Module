@@ -1,11 +1,13 @@
 package com.example.dagger_module.Dagger;
 
 import com.example.dagger_module.Business;
+import com.example.dagger_module.MainActivity;
 
 import dagger.Component;
 
-@Component
+@Component(modules = BusinessModule.class)
 public interface BusinessComponent {
 
-    Business getBusiness();
+    void inject(MainActivity mainActivity);
+
 }
