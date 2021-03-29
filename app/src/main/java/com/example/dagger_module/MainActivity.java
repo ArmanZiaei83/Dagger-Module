@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         component = DaggerBusinessComponent.create();
         component.inject(this);
-
         business.StartBusiness();
     }
 }
